@@ -1,0 +1,43 @@
+.divGuidNumber {
+    font-size: 5vh !important;
+    font-size: 30px !important;
+    background-color: black;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.dnstextbox {
+    width: 280px !important;
+}
+
+@media only screen and (min-width: 350px) {
+    .divGuidNumber {
+        font-size: 2vh !important;
+    }
+
+    .dnstextbox {
+        width: 100% !important;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .divGuidNumber {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .divGuidNumber {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (min-width: 997px) {
+    .divGuidNumber {
+        font-size: 30px !important;
+    }
+}
